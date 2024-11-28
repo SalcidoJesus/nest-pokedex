@@ -17,6 +17,10 @@ npm i -g @nestjs/cli
 ```
 docker-compose up -d
 ```
+5. Llenar la BD con 650 pokemones
+```
+http://localhost:3000/api/seed
+```
 
 
 ## Stack
