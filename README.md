@@ -17,7 +17,11 @@ npm i -g @nestjs/cli
 ```
 docker-compose up -d
 ```
-5. Llenar la BD con 650 pokemones
+5. Clonar el archivo **.env_template** y renombrar la copia como **.env**.
+
+6. Llenar las variables de entorno
+
+7. Llenar la BD con 650 pokemones
 ```
 http://localhost:3000/api/seed
 ```
